@@ -1,0 +1,14 @@
+name: KnockBack
+version: 1.0.0
+api: 4.0.0
+author: xRookieFight
+main: KnockBack\Main
+
+commands:
+  knockback:
+    description: Knockback menu
+    permission: knockback.command
+
+permissions:
+  knockback.command:
+    default: op
