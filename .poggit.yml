@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/xRookieFight/KnockBack
+build-by-default: true
+branches:
+- main
+projects:
+  KnockBack:
+    path: ""
+    libs:
+      - src: jojoe77777/FormAPI/libFormAPI
+        version: ^2.1.0
+...
