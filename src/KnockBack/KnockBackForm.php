@@ -11,7 +11,8 @@ class KnockBackForm{
            if (is_null($data)) return true;
            if ($data[0] == null) {
                $data[0] = 0.4;
-           } elseif ($data[1] == null) {
+           }
+           if ($data[1] == null) {
                $data[1] = 8;
            }
            Main::getInstance()->getConfig()->set("knockback", $data[0]);
