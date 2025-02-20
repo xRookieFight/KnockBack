@@ -5,5 +5,5 @@ branches:
 projects:
   KnockBack:
     path: ""
-    icon: "icon1.png"
+    icon: "icon.png"
 ...
