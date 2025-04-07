@@ -33,8 +33,8 @@ class KnockBackForm implements Form {
     public function handleResponse(Player $player, $data): void
     {
         if (is_null($data)) return;
-        $kb = $data[1];
-        $ac = $data[2];
+        $kb = $data[0];
+        $ac = $data[1];
         if (empty($kb) || empty($ac)) {
             $player->sendMessage(TextFormat::RED."Fill all the sections.");
             return;
